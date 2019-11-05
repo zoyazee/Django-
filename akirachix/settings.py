@@ -133,4 +133,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'student/media')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'teacher/media')
 LOGIN_REDIRECT_URL="/"
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
